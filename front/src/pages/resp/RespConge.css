@@ -1,0 +1,108 @@
+.conge-page {
+  background: #181c24;
+  color: #f3f4f6;
+  min-height: 100vh;
+  padding: 32px 24px;
+}
+
+.conge-page h2 {
+  color: #60a5fa;
+  margin-bottom: 24px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.conge-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #23283a;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 32px;
+}
+
+.conge-table th, .conge-table td {
+  padding: 12px 16px;
+  text-align: left;
+}
+
+.conge-table th {
+  background: #1e2230;
+  color: #60a5fa;
+  font-weight: 600;
+}
+
+.conge-table tr:nth-child(even) {
+  background: #20232e;
+}
+
+.conge-table tr:nth-child(odd) {
+  background: #23283a;
+}
+
+.conge-table td button {
+  background: #ef4444;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.conge-table td button:hover {
+  background: #dc2626;
+}
+
+.conge-form {
+  background: #23283a;
+  padding: 20px 24px;
+  border-radius: 8px;
+  margin-bottom: 32px;
+  display: flex;
+  gap: 24px;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+/* Add extra spacing between debut, fin, raison fields */
+.conge-form > div {
+  margin-right: 0;
+}
+.conge-form > div:not(:last-child) {
+  margin-right: 12px;
+}
+.conge-form label {
+  color: #60a5fa;
+  font-weight: 500;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.conge-form input, .conge-form select {
+  background: #181c24;
+  color: #f3f4f6;
+  border: 1px solid #374151;
+  border-radius: 4px;
+  padding: 6px 10px;
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+
+
+.conge-form button {
+  background: #10b981;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 18px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.conge-form button:hover {
+  background: #059669;
+}

@@ -1,0 +1,42 @@
+
+.tech-history-page {
+  background-color: #111827;
+  height: 100.1vh;
+  width: 82.99vw;
+  color: #e5e7eb;
+  padding: 30px;
+  max-width: none;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.tech-history-page h2 {
+  color: #38bdf8;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.tech-history-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #1f2937;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.tech-history-table th,
+.tech-history-table td {
+  padding: 12px 15px;
+  text-align: center;
+  border-bottom: 1px solid #374151;
+}
+
+.tech-history-table th {
+  background-color: #2563eb;
+  color: white;
+}
+
+.tech-history-table tr:hover {
+  background-color: #374151;
+}

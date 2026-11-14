@@ -1,0 +1,108 @@
+body, .profile-bg {
+  min-height: 100vh;
+  background: #111827;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+.profile-bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+
+.profile-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  background: #111827;
+  border-radius: 14px;
+  padding: 40px 40px 32px 40px;
+  color: #e5e7eb;
+  font-family: 'Segoe UI', sans-serif;
+}
+.profile-container h2 {
+  text-align: center;
+  margin-bottom: 28px;
+  color: #38bdf8;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.profile-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.profile-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-weight: 500;
+  color: #e5e7eb;
+  margin-bottom: 0;
+  font-size: 1rem;
+}
+.profile-form input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 14px;
+  border: 1px solid #374151;
+  border-radius: 7px;
+  font-size: 16px;
+  margin-top: 0;
+  background: #1f2937;
+  color: #e5e7eb;
+  transition: border 0.2s;
+}
+.profile-form label {
+  font-weight: 500;
+  color: #e5e7eb;
+  margin-bottom: 4px;
+  font-size: 1rem;
+}
+.profile-form input {
+  padding: 10px 12px;
+  border: 1px solid #374151;
+  border-radius: 7px;
+  font-size: 16px;
+  margin-top: 4px;
+  background: #1f2937;
+  color: #e5e7eb;
+  transition: border 0.2s;
+}
+.profile-form input:focus {
+  border-color: #38bdf8;
+  outline: none;
+}
+.profile-form button {
+  background-color: #10b981;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  padding: 14px 0;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 18px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+  transition: background 0.2s;
+}
+.profile-form button:hover {
+  background-color: #059669;
+}
+.profile-error {
+  color: #ef4444;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 1rem;
+}
+.profile-success {
+  color: #10b981;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 1rem;
+}

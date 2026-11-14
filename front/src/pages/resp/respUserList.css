@@ -1,0 +1,94 @@
+.resp-user-role-btns {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+.resp-user-role-btn {
+  background: #1f2937;
+  color: #38bdf8;
+  border: 1.5px solid #38bdf8;
+  border-radius: 6px;
+  padding: 8px 22px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.resp-user-role-btn.active,
+.resp-user-role-btn:hover {
+  background: #38bdf8;
+  color: #1f2937;
+}
+.resp-user-search {
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto 24px auto;
+  display: block;
+  padding: 10px 14px;
+  border-radius: 6px;
+  border: 1px solid #374151;
+  background: #1f2937;
+  color: #e5e7eb;
+  font-size: 1rem;
+  transition: border 0.2s;
+  outline: none;
+}
+.resp-user-search:focus {
+  border: 1.5px solid #38bdf8;
+}
+
+.resp-user-section {
+  color: #38bdf8;
+  margin: 32px 0 10px 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: left;
+}
+.resp-user-page {
+  background-color: #111827;
+  height: 100.1vh;
+  width: 82.99vw;
+  color: #e5e7eb;
+  padding: 30px;
+  max-width: none;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.resp-user-page h2 {
+  color: #38bdf8;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.resp-user-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #1f2937;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.resp-user-table th,
+.resp-user-table td {
+  padding: 12px 15px;
+  text-align: center;
+  border-bottom: 1px solid #374151;
+}
+
+.resp-user-table th {
+  background-color: #2563eb;
+  color: white;
+}
+
+.resp-user-table tr:hover {
+  background-color: #374151;
+}
+
+.resp-user-error {
+  color: #ef4444;
+  text-align: center;
+  margin-top: 20px;
+}

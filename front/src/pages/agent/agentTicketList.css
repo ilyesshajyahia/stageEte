@@ -1,0 +1,79 @@
+.agent-ticket-page {
+  background-color: #111827;
+  width: 82.99vw;
+  color: #e5e7eb;
+  padding: 30px;
+  max-width: none;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.agent-ticket-page h2 {
+  color: #38bdf8;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.agent-ticket-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #1f2937;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.agent-ticket-table th,
+.agent-ticket-table td {
+  padding: 12px 15px;
+  text-align: center;
+  border-bottom: 1px solid #374151;
+}
+
+.agent-ticket-table th {
+  background-color: #2563eb;
+  color: white;
+}
+
+.agent-ticket-table tr:hover {
+  background-color: #374151;
+}
+
+.agent-ticket-table select,
+.agent-ticket-table input {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  border: 1px solid #374151;
+  border-radius: 4px;
+  padding: 5px;
+  font-size: 1rem;
+}
+
+.agent-edit-btn {
+  background-color: #10b981;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.agent-edit-btn:hover {
+  background-color: #059669;
+}
+
+.agent-delete-btn {
+  background-color: #ef4444;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.agent-delete-btn:hover {
+  background-color: #dc2626;
+}

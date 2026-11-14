@@ -1,0 +1,76 @@
+/* src/pages/Agent/CreateTicket.css */
+.create-ticket-container {
+  background-color: #111827;
+  height: 100.1vh;
+  width: 82.99vw;
+  color: #e5e7eb;
+  padding: 30px;
+  max-width: none;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+  
+
+.create-ticket-container h2 {
+  color: #38bdf8;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.create-ticket-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-ticket-form label {
+  margin: 10px 0 5px;
+  font-weight: 500;
+}
+
+.required {
+  color: #ef4444;
+}
+
+.create-ticket-form select,
+.create-ticket-form textarea {
+  background-color: #1f2937;
+  color: #ffffff;
+  border: 1px solid #374151;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 1rem;
+  resize: vertical;
+}
+
+.create-ticket-form select:focus,
+.create-ticket-form textarea:focus {
+  outline: none;
+  border-color: #38bdf8;
+}
+
+.create-ticket-form button {
+  background-color: #2563eb;
+  color: white;
+  padding: 12px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  width: 120px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.create-ticket-form button:hover {
+  background-color: #1d4ed8;
+}
+
+.error {
+  color: #f87171;
+  margin-top: 10px;
+  text-align: center;
+}

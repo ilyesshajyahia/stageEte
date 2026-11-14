@@ -1,0 +1,88 @@
+/* Match techHistory.css style */
+.resp-interventions-page {
+  background-color: #111827;
+  height: 100.1vh;
+  width: 82.99vw;
+  color: #e5e7eb;
+  padding: 30px;
+  max-width: none;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.resp-interventions-page h2 {
+  color: #38bdf8;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.resp-interventions-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #1f2937;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.resp-interventions-table th,
+.resp-interventions-table td {
+  padding: 12px 15px;
+  text-align: center;
+  border-bottom: 1px solid #374151;
+}
+
+.resp-interventions-table th {
+  background-color: #2563eb;
+  color: white;
+}
+
+.resp-interventions-table tr:hover {
+  background-color: #374151;
+}
+
+.resp-interventions-table th, .resp-interventions-table td {
+  padding: 0.85rem 1.2rem;
+  text-align: left;
+}
+
+.resp-interventions-table th {
+  background: #1e293b;
+  color: #38bdf8;
+  font-size: 1.05rem;
+  font-weight: 600;
+  border-bottom: 2px solid #38bdf8;
+}
+
+.resp-interventions-table tr {
+  transition: background 0.2s;
+}
+
+.resp-interventions-table tbody tr:nth-child(even) {
+  background: #23232a;
+}
+
+.resp-interventions-table tbody tr:nth-child(odd) {
+  background: #18181b;
+}
+
+.resp-interventions-table td {
+  border-bottom: 1px solid #22223b;
+  font-size: 1rem;
+}
+
+.resp-interventions-table tr:hover {
+  background: #22223b;
+}
+
+@media (max-width: 800px) {
+  .resp-interventions-page {
+    padding: 1rem 0.5rem;
+  }
+  .resp-interventions-table th, .resp-interventions-table td {
+    padding: 0.5rem 0.5rem;
+    font-size: 0.95rem;
+  }
+}
